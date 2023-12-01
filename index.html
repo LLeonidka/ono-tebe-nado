@@ -65,35 +65,33 @@
         <div class="overlay"></div>
         <div class="cover_description">
           <p class="cover__description-text">
-            <span
-              >Аукцион вещей, в которые никто не<span
-                class="cover_description-text-space"
-              >
-                в</span
-              >ерил</span
+            Аукцион вещей, в которые никто не<span
+              class="cover_description-text-space"
             >
+              в</span
+            ><span>ерил</span>
           </p>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
-      <article class="lots">
+      <section class="lots">
         <h2 class="lots_head">лоты</h2>
-        <div class="lots__card-list">
-          <article class="card_type_film">
+        <ul class="lots__card-list">
+          <li class="card_type_film card">
             <div class="overlay"></div>
-            <h3 class="card__title card-film">
+            <a class="card__title" href="#">
               Фильм режиссёра, который бросил киношколу
-            </h3>
+            </a>
             <p class="card__text">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
             </p>
-          </article>
-          <article class="card_type_book">
+          </li>
+          <li class="card_type_book card">
             <div class="overlay"></div>
-            <h3 class="card__title card-book">
+            <a class="card__title" href="#">
               Книга, где описан один скучный день из жизни рекламного агента
-            </h3>
+            </a>
             <p class="card__text">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
               переходами на древнеанглийский. В ней одновременно рассказывается
@@ -101,22 +99,22 @@
               времён. И это всё накладывается на эпическую поэму Гомера. Сколько
               бы вы поставили на «Улисса» Джеймса Джойса?
             </p>
-          </article>
-          <article class="card_type_picture">
+          </li>
+          <li class="card_type_picture card">
             <div class="overlay"></div>
-            <h3 class="card__title card-picture">
+            <a class="card__title" href="#">
               Картина, которую повторит даже 5-летний сын маминой подруги
-            </h3>
+            </a>
             <p class="card__text">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
               похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
               Сколько бы вы на такое поставили, если бы не знали, что это — одна
               из революционных работ Кандинского?
             </p>
-          </article>
-        </div>
+          </li>
+        </ul>
         <a class="lots-more" href="#">посмотреть больше</a>
-      </article>
+      </section>
       <section class="about">
         <div class="about-logo">
           <div class="about-logo-svg"></div>
@@ -173,33 +171,31 @@
           </li>
         </ul>
       </nav>
-      <div class="social_icon">
-        <ul class="social_icon_wrap">
-          <li>
-            <a href="#">
-              <img class="icon-size" src="images/yt.svg" alt="Логотип ютуб" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                class="icon-size"
-                src="images/vk.svg"
-                alt="Логотип вконтакте"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                class="icon-size"
-                src="images/pinterest.svg"
-                alt="Логотип пинтерест"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="social_icon_wrap">
+        <li>
+          <a href="#">
+            <img class="icon-size" src="images/yt.svg" alt="Логотип ютуб" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              class="icon-size"
+              src="images/vk.svg"
+              alt="Логотип вконтакте"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              class="icon-size"
+              src="images/pinterest.svg"
+              alt="Логотип пинтерест"
+            />
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
